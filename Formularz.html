@@ -34,32 +34,22 @@
             </ul>
         </nav>
     </div>
+    <form action="#" autocomplete="on">
+        Imię<input type="text" name="Imie" autofocus><br><br> Nazwisko
+        <input type="text" name="Nazwisko" required> <br><br> Miesiąc
+        <input list="miesiąc"><br><br>
+        <datalist id="miesiąc">
+            <option value="styczeń" >
+            <option value="luty" >
+            <option value="marzec" >
+            <option value="kwiecień" >
+            <option value="maj" >
+            <option value="czerwiec" >
+         </datalist> E-mail
 
-    <div id="section" style="margin: 5px;
-            padding: 10px;
-            background-color: white;">
-        <h2>Witaj w świecie fantasy</h2>
-        <div class="article" style="margin: 5px;
-            padding: 10px;
-            background-color: lightgrey;
-            color:black;
-            display: inline-block;
-            width: 60%;">
-            <h2>Cytaty na dziś</h2>
-            <p>Jeśli chce się no­sić głowę w chmu­rach, trze­ba obiema no­gami stąpać po ziemi. - <i>Terry Pratchet</i></p>
-            <p>Jeśli wyrwiemy komuś język, nie dowiedziemy, że kłamie, a tylko obwieścimy całemu światu, iż boimy się tego, co ma do powiedzenia.-<i>George R.R. Martin</i></p>
-            <p>Nie jest nam dane decydowac w jakich czasach przyszlo nam zyc , ale mozemy decydowac co zrobimy z czasem jaki zostal nam dany.-<i>J.R.R. Tolkien</i></p>
-
-
-        </div>
-        <div class="aside" style="margin: 10px;
-            display: inline;
-            position: relative
-            widht: 45%
-            bot:10px">
-            <img source src="drizzt.jpg" alt="" width="20%" />
-        </div>
-    </div>
+        <input required type="email" name="email" plaecehoder="nazwa@domena.pl" pattern="[^ @]*@[^ @]*"><br><br>
+        <input type="submit">
+    </form>
 
     <div id="footer" style=" padding: 10px;
     color:white;
